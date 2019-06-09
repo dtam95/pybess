@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pybess
+Version: 0.0.5
+Summary: Energy Arbitrage for Battery Energy Storage Systems
+Home-page: UNKNOWN
+Author: Daniel Tam & Henry Blumentals
+Author-email: daniel.tam07@gmail.com
+License: UNKNOWN
+Description: # pyBESS
+        Energy Arbitrage for Battery Energy Storage Systems (BESS's)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
