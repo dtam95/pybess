@@ -110,7 +110,7 @@ def nbplot(arb):
 
 	#fig = dict(data=data, layout=layout)
 	fig = go.Figure(data=data, layout=layout)
-	return iplot(fig)
+	return fig
 
 def heat_map(arb):
 	df = arb.results()
@@ -166,4 +166,4 @@ def heat_map(arb):
 	)
 	fig = go.Figure(data=data, layout=layout)
 
-	return iplot(fig)
+	return fig

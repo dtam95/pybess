@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pybess",
-    version="0.0.7",
+    version="0.0.8",
     author="Daniel Tam & Henry Blumentals",
     author_email="daniel.tam07@gmail.com",
     description="Energy Arbitrage for Battery Energy Storage Systems",
