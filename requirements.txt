@@ -1,6 +1,1 @@
-pandas
-numpy
-datetime
-nemosis
-pulp
-plotly
+pybess
