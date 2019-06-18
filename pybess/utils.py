@@ -1,5 +1,6 @@
-from plotly.offline import iplot
+import datetime
 import plotly.graph_objs as go
+from plotly.offline import plot, iplot
 from pybess.Arbitrage import Arbitrage
 
 def plot(arb):
@@ -107,7 +108,8 @@ def nbplot(arb):
 	    )
 	)
 
-	fig = dict(data=data, layout=layout)
+	#fig = dict(data=data, layout=layout)
+	fig = go.Figure(data=data, layout=layout)
 	return iplot(fig)
 
 def heat_map(arb):
